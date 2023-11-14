@@ -51,4 +51,9 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
+    // initializing project carousels
+
+    $('#projectCarousel2').carousel();
+    $('#projectCarousel3').carousel();
+
 });

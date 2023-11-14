@@ -1,0 +1,109 @@
+
+/****Color override modifications*****/
+
+:root
+{
+    --bs-primary-rgb: 52, 198, 217;
+}
+
+/*Main nav bar override modifications*/
+
+#mainNav
+{
+    background-color: rgb(1, 101, 115) !important;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link.active
+{
+    background-color: rgb(38, 150, 158);
+    color: rgb(95, 240, 250) !important;
+}
+
+#mainNav .navbar-nav li.nav-item a.nav-link:hover
+{
+    background-color: rgb(82, 174, 186);
+    color: rgb(95, 240, 250) !important;
+}
+
+
+/*Portfolio override modifications*/
+.portfolio
+{
+    background-color: rgb(166, 255, 254);
+}
+
+/* Set a fixed height for Carousel items */
+.carousel-item {
+    height: 500px;
+}
+
+/* Ensure images fill the entire width and height of the Carousel item */
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Maintain aspect ratio and cover the entire Carousel item */
+}
+
+
+/* Awards and prizes override modifications */
+
+.portfolio-item {
+    background-color: rgb(52, 198, 217);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+}
+
+.portfolio-item h3, .portfolio-item h2 {
+    text-align: center; /* Center text */
+    margin: 0; /* Remove default margin */
+}
+
+.portfolio-item:hover {
+    background-color: rgb(54, 207, 148);
+}
+
+
+/*Contact Me override modifications*/
+#contact
+{
+    background-color: rgb(54, 207, 148);
+}
+
+.form-floating.mb-3 input, .form-floating.mb-3 textarea
+{
+    background-color: rgb(143, 235, 199);
+}
+
+#submitButton
+{
+    background-color: rgb(24, 92, 66);
+}
+
+/*Footer and copyright ovveride modifications*/
+.footer
+{
+    background-color: rgb(34, 133, 95) !important;
+}
+
+.copyright
+{
+    background-color: rgb(24, 92, 66);
+}
+
+
+
+/*Custom icons modifications*/
+.portfolio-divider-icons
+{
+    display: flex;
+    align-items: center;
+}
+
+.portfolio-divider-icons .divider-custom-icon
+{
+    margin-right: 10px;
+}
