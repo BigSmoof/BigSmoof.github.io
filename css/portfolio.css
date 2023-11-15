@@ -47,25 +47,43 @@
 
 /* Awards and prizes override modifications */
 
-.portfolio-item {
-    background-color: rgb(52, 198, 217);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    position: relative;
+.alert {
+    border: 2px solid rgb(24, 92, 66);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
 }
 
-.portfolio-item h3, .portfolio-item h2 {
-    text-align: center; /* Center text */
-    margin: 0; /* Remove default margin */
+.alert-info {
+    background-color: rgb(54, 207, 148) !important; 
+    color: #ffffff !important;
 }
 
-.portfolio-item:hover {
-    background-color: rgb(54, 207, 148);
+
+/* Skills override modifications */
+
+
+/* Customize background color, text color, and border for each category */
+.list-group-item {
+    border: 2px solid rgb(1, 101, 115); /* Border color */
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
+.list-group-item.programmation {
+    background-color: #3498db; /* Blue background color */
+    color: #ffffff; /* White text color */
+}
+
+.list-group-item.developpement {
+    background-color: #2ecc71; /* Green background color */
+    color: #ffffff; /* White text color */
+}
+
+.list-group-item.conception {
+    background-color: #e67e22; /* Orange background color */
+    color: #ffffff; /* White text color */
+}
 
 /*Contact Me override modifications*/
 #contact
@@ -73,15 +91,53 @@
     background-color: rgb(54, 207, 148);
 }
 
-.form-floating.mb-3 input, .form-floating.mb-3 textarea
-{
-    background-color: rgb(143, 235, 199);
+.form-control {
+    background-color: rgb(207, 252, 212); /* Set the background color for form fields */
 }
 
-#submitButton
-{
-    background-color: rgb(24, 92, 66);
+/* Custom styles for the submit button */
+.btn-primary {
+    background-color: rgb(54, 207, 148); /* Set the background color for the submit button */
+    border-color: #2f373f; /* Set the border color for the submit button */
 }
+
+/* Hover and focus styles for the submit button */
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: rgb(0, 214, 203); /* Set a different background color on hover or focus */
+    border-color: rgb(0, 255, 240); /* Set a different border color on hover or focus */
+}
+
+/* Larger and circular social buttons */
+.btn-social {
+    font-size: 24px;
+    padding: 15px;
+    width: 70px;
+    height: 70px; /* Set a fixed height to maintain a circular shape */
+    border-radius: 50%; /* Make it circular */
+    margin-right: 300px;
+    margin-bottom: 10px;
+}
+
+/* Add spacing between social buttons */
+.btn-social + .btn-social {
+    margin-top: 10px;
+}
+
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 80px;
+}
+
+/* Adjust alignment and spacing between social buttons and the form */
+.col-md-4 + .col-md-8 {
+    margin-top: 10px;
+}
+
+
+
 
 /*Footer and copyright ovveride modifications*/
 .footer

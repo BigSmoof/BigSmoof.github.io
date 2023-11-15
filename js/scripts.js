@@ -53,6 +53,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // initializing project carousels
 
+    $('#projectCarousel1').carousel();
     $('#projectCarousel2').carousel();
     $('#projectCarousel3').carousel();
 
